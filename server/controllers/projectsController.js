@@ -50,7 +50,7 @@ exports.processProjectPrompt = async (req, res) => {
 };
 
 exports.getProjectsByCareer = async (req, res) => {
-  const { careerId } = req.params;  
+  const { careerId } = req.params;
 
   try {
     const project = await Project.findOne({ careerId });
@@ -88,7 +88,7 @@ exports.deleteProjectsByCareer = async (req, res) => {
 exports.getProjectCareerIds = async (req, res) => {
   try {
     const careers = await Project.find({}, { careerId: 1, _id: 0 });  // Only fetch careerId, exclude _id
-    
+
     if (careers.length === 0) {
       return res.status(404).json({ message: 'No career IDs found' });
     }

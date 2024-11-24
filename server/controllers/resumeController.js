@@ -83,15 +83,15 @@ exports.deleteResumeByCareer = async (req, res) => {
 
 exports.getResumeCareerIds = async (req, res) => {
   try {
-    const careers = await Resume.find({}, { careerId: 1, _id: 0 }); 
+    const careers = await Resume.find({}, { careerId: 1, _id: 0 });
 
     if (careers.length === 0) {
       return res.status(404).json({ message: 'No career IDs found' });
     }
 
-    const careerIds = careers.map(career => career.careerId); 
+    const careerIds = careers.map(career => career.careerId);
 
-    res.status(200).json(careerIds); 
+    res.status(200).json(careerIds);
   } catch (error) {
     console.error('Error fetching career IDs:', error);
     res.status(500).send('Error fetching career IDs');
