@@ -84,7 +84,7 @@ exports.deleteSkillsByCareer = async (req, res) => {
 exports.getCareerIds = async (req, res) => {
   try {
     const careers = await Skills.find({}, { careerId: 1, _id: 0 });  // Only fetch careerId, exclude _id
-    
+
     if (careers.length === 0) {
       return res.status(404).json({ message: 'No career IDs found' });
     }
