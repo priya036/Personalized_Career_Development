@@ -1,7 +1,6 @@
-// App.js
 import React, { useState, useEffect } from "react";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
-import { auth } from "./Firebase"; // Import Firebase auth instance
+import { auth } from "./Firebase"; 
 import { onAuthStateChanged } from "firebase/auth";
 
 import axios from "axios";
@@ -29,7 +28,7 @@ export default function App() {
         };
         setUser(userData);
 
-        // Save user to backend (optional, based on your API)
+        // Save user to backend 
         try {
           const response = await axios.post(`${apiUrl}/saveUser`, userData);
           console.log("User data saved:", response.data);
@@ -45,9 +44,9 @@ export default function App() {
     return () => unsubscribe(); // Cleanup listener on unmount
   }, []);
 
-  // If app is still determining auth state, show loading UI
+  
   if (loading) {
-    return <div>Loading...</div>; // Replace with a better loading spinner if needed
+    return <div>Loading...</div>; 
   }
 
   return (
