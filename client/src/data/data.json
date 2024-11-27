@@ -1,0 +1,164 @@
+{
+  "Header": {
+    "title": "An AI Tool For Personalised Career Development",
+    "paragraph": "Unlocking Potential is an AI-driven platform designed to personalize career growth by offering tailored guidance, insights, and resources based on individual strengths and goals."
+  },
+  "About": {
+    "paragraph": "Our platform empowers users on their career journey by providing tailored guidance and personalized learning pathways. We help users acquire essential skills, enhance their competencies, and navigate their professional paths with confidence. With actionable insights and continuous support, users stay motivated and accountable, exploring various career options that align with their interests and strengths.",
+    "Why": [
+      "Tailored Career Guidance",
+      "Personalized Skill Insights",
+      "Innovative Project Ideas",
+      "Professional Resume Building"
+    ],
+    "Why2": [
+      "Empowering Your Career Journey",
+      "Comprehensive Career Support",
+      "Actionable Learning Paths",
+      "Career Diversity Exploration"
+    ]
+  },
+  "Gallery": [
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/01-large.jpg",
+      "smallImage": "img/portfolio/01-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/02-large.jpg",
+      "smallImage": "img/portfolio/02-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/03-large.jpg",
+      "smallImage": "img/portfolio/03-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/04-large.jpg",
+      "smallImage": "img/portfolio/04-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/05-large.jpg",
+      "smallImage": "img/portfolio/05-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/06-large.jpg",
+      "smallImage": "img/portfolio/06-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/07-large.jpg",
+      "smallImage": "img/portfolio/07-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/08-large.jpg",
+      "smallImage": "img/portfolio/08-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/09-large.jpg",
+      "smallImage": "img/portfolio/09-small.jpg"
+    }
+  ],
+  "Services": [
+    {
+      "name": "Career Planning",
+      "text": "Build a strong foundation for your career by identifying your goals, aspirations, and the steps needed to achieve them."
+    },
+    {
+      "name": "Skill Gap Analysis",
+      "text": "Assess your current skill set and identify the gaps in your knowledge and abilities to help you prioritize what to learn next."
+    },
+    {
+      "name": "Hands-on Experience",
+      "text": "Gain practical, valuable, and relevant experience through real-world projects and challenges tailored to your career field."
+    },
+    {
+      "name": "Professional Networking",
+      "text": "Learn the strategies for building and leveraging a professional network to unlock job opportunities and career growth."
+    },
+    {
+      "name": "Interview Preparation",
+      "text": "Prepare for job interviews with mock interviews, common questions, and tips on how to present yourself confidently."
+    },
+    {
+      "name": "Portfolio Building",
+      "text": "Showcase your skills and experience by creating an online portfolio that highlights your projects, achievements, and qualifications."
+    }
+    
+   
+  ],
+
+  "Team": [
+    {
+      "img": "img/team/male.png",
+      "name": "Arunesh J",
+      "linkedin":"https://www.linkedin.com/in/arunesh04/"
+    },
+    {
+      "img": "img/team/female.png",
+      "name": "Priyadharshini S",
+      "linkedin":"https://www.linkedin.com/in/priya036/"
+    },
+    {
+      "img": "img/team/female.png",
+      "name": "Malavika A",
+      "linkedin":"https://www.linkedin.com/in/malavika-a-b77393259/"
+    },
+    {
+      "img": "img/team/female.png",
+      "name": "Jenesha Malar S",
+      "linkedin":"https://www.linkedin.com/in/jeneshamalar/"
+    },
+    {
+      "img": "img/team/female.png",
+      "name": "Lokitha R",
+      "linkedin":"https://www.linkedin.com/in/lokitha-r-b69393259/"
+    },
+    {
+      "img": "img/team/female.png",
+      "name": "Varshini L",
+      "linkedin":"https://www.linkedin.com/in/varshini-loganathan-648651256/"
+    },
+    {
+      "img": "img/team/female.png",
+      "name": "Priyadharshini",
+      "linkedin":"https://www.linkedin.com/in/arunesh04/"
+    }
+  ],
+  "Contact": {
+    "address": "4321 California St, San Francisco, CA 12345 ",
+    "phone": "+1 123 456 1234",
+    "email": "info@company.com",
+    "facebook": "fb.com",
+    "twitter": "twitter.com",
+    "youtube": "youtube.com"
+  },
+  "Features": [
+    {
+      "icon": "fa fa-comments-o",
+      "title": "Roadmap",
+      "text": "Navigate your career with a customized roadmap, detailing milestones and actionable strategies for success."
+    },
+    {
+      "icon": "fa fa-bullhorn",
+      "title": "Skills Required",
+      "text": "Get personalized insights on essential skills to improve your qualifications and job prospects."
+    },
+    {
+      "icon": "fa fa-group",
+      "title": "Project Ideas",
+      "text": "Find project ideas that resonate with your career ambitions and help you develop expertise in your chosen field."
+    },
+    {
+      "icon": "fa fa-magic",
+      "title": "Resume Build",
+      "text": "Design professional resumes that reflect your unique qualifications and help you stand out in the job market."
+    }
+  ]
+}
