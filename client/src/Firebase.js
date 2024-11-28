@@ -32,12 +32,12 @@ export const signInWithGoogle = async () => {
       localStorage.setItem("email", user.email);
       localStorage.setItem("profilePic", user.photoURL);
   
-      return user; // Return user object
+      return user; 
     } catch (error) {
       console.error("Sign-in error:", error);
-      throw error; // Propagate the error to the caller
+      throw error; 
     } finally {
-      isSigningIn = false; // Reset flag
+      isSigningIn = false; 
     }
   };
   
