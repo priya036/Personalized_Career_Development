@@ -34,7 +34,7 @@ export const Contact = () => {
           <FaLinkedin size={24} />
         </a>
         <a
-          href="https://github.com/Malavikaa02/Personalized_Career_Development"
+          href="https://github.com/priya036/Personalized_Career_Development"
           target="_blank"
           rel="noopener noreferrer"
           style={{ color: "#333", fontSize: "16px" }} 
