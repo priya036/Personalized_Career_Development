@@ -3,6 +3,8 @@ import { signOut, onAuthStateChanged } from "firebase/auth";
 import axios from "axios";
 import { auth } from "../Firebase"; // Import Firebase auth instance
 import mainlogo from "../images/mainlogo.png";
+const apiUrl = process.env.REACT_APP_API_ENDPOINT;
+
 
 export const Navigationinner = ({ title }) => {
   const [user, setUser] = useState(null); // Firebase user state
@@ -97,7 +99,7 @@ export const Navigationinner = ({ title }) => {
         const fetchUserData = async () => {
           try {
             const response = await axios.get(
-              `http://localhost:5000/getUser/${currentUser.email}`
+              `${apiUrl}/getUser/${currentUser.email}`
             );
             setUserData(response.data);
           } catch (error) {
