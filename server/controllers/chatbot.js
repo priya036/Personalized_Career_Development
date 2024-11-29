@@ -1,6 +1,6 @@
 const Groq = require('groq-sdk');
 
-const groq = new Groq();
+const groq = new Groq({ apiKey: process.env.GROQ_API_KEY });
 
 exports.processChatbotPrompt = async (req, res) => {
   const { prompt } = req.body;

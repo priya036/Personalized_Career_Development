@@ -1,7 +1,7 @@
 const Project = require('../models/projects');
 const Groq = require('groq-sdk');
 
-const groq = new Groq();
+const groq = new Groq({ apiKey: process.env.GROQ_API_KEY });
 
 exports.processProjectPrompt = async (req, res) => {
   const { career, count } = req.body;
