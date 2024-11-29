@@ -1,7 +1,7 @@
 const Resume = require('../models/resumes');
 const Groq = require('groq-sdk');
 
-const groq = new Groq();
+const groq = new Groq({ apiKey: process.env.GROQ_API_KEY });
 
 exports.processResumePrompt = async (req, res) => {
   const { career } = req.body;
