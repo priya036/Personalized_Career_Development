@@ -94,5 +94,4 @@ Contributions are welcome! If you have suggestions for improvements or new featu
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Acknowledgements
-Thanks to the developers of the libraries and frameworks used in this project.
-
+Thanks to the developers of the libraries and frameworks used in this project
